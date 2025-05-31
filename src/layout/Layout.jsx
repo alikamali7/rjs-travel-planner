@@ -1,11 +1,12 @@
 import Header from "../components/templates/Header";
 import Footer from "../components/templates/Footer";
+import { Container } from "@mui/material";
 
 function Layout({ children }) {
   return (
     <>
       <Header />
-      {children}
+      <Container maxWidth="lg">{children}</Container>
       <Footer />
     </>
   );

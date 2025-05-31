@@ -1,8 +1,12 @@
+import { Container, Grid } from "@mui/material";
+import Banner from "../components/templates/Banner";
 
 function HomePage() {
   return (
-    <div>HomePage</div>
-  )
+    <Grid>
+      <Banner />
+    </Grid>
+  );
 }
 
-export default HomePage
+export default HomePage;
