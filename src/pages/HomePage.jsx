@@ -1,11 +1,13 @@
-import { Container, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 import Banner from "../components/templates/Banner";
+import Explore from "../components/templates/Explore";
 
 function HomePage() {
   return (
-    <Grid>
+    <>
       <Banner />
-    </Grid>
+      <Explore />
+    </>
   );
 }
 

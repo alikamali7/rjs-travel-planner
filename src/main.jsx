@@ -5,6 +5,8 @@ import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "@mui/material";
 
 import theme from "./theme/theme.js";
+import "./styles/fonts.css";
+import "./styles/index.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
